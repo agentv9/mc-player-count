@@ -2,9 +2,10 @@
 
 ## To use:
 
-1: Download and doubleclick "run.bat" to start the program
-2: Enter your servers IP and Port
-3: just wait, every 30 seconds it will log all online players to the console
+1. Download and doubleclick `setup.bat` to install the dependencies
+2. Doubleclick `run.bat` to start the program
+3. Enter your servers IP and Port
+4. just wait, every 30 seconds it will log all online players to the console
 
 Alternatively if you dont want to enter the IP and Port everytime you launch you can just make a `config,json` file in the same directory setup like this:
 ```
