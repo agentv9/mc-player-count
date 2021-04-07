@@ -7,7 +7,7 @@
 3. Enter your servers IP and Port
 4. just wait, every 30 seconds it will log all online players to the console
 
-Alternatively if you dont want to enter the IP and Port everytime you launch you can just make a `config,json` file in the same directory setup like this:
+Alternatively if you dont want to enter the IP and Port everytime you launch you can just make a `config.json` file in the same directory setup like this:
 ```
 {
     "ip": "youriphere",
