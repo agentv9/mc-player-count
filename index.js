@@ -41,5 +41,6 @@ function getsetverstatus(ip, port) {
     getDate()
     
     console.log(chalk.cyan('\[' + cleanDate + '\]:' ) + chalk.white(' Ping: ' + serverstatus + " Players: "+ players ) + "\n")
-    })
     }
+   )
+}
