@@ -11,8 +11,8 @@ function getDate() {
 fs.stat("./config.json", function(err, stat) {
   if(err){
     
-    const ip = prompt('Please enter the server IP: (this is case sensetive) ');
-    const port = prompt("Please enter the server Port: ")
+    const ip = prompt('Enter server IP: ').toLowerCase()
+    const port = prompt("Enter server Port: ")
     getsetverstatus(ip, port)
     setInterval( ()=>{ getsetverstatus(ip,port); }, 30000);
 }else{
