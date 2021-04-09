@@ -16,6 +16,11 @@ Alternatively if you dont want to enter the IP and Port everytime you launch you
 ```
 then it will stop asking for the ip and port and will always use the stuff specified in the config file.
 
+##To Do:
+
+- [x] Basic online user logging
+- [ ] Gui that shows users skins and other info
+- [ ] Idk get a life ig?
 
 
 
