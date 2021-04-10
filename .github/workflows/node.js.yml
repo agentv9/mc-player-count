@@ -3,6 +3,8 @@
 
 name: Node.js CI
 
+=
+
 on:
   push:
     branches: [ master ]
@@ -20,6 +22,12 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
+    - uses: "finnp/create-file-action@master"
+      env:
+        FILE_NAME: "dir/config.json"
+        FILE_DATA: "{"ip" : "hypixel.net",
+        "port" :"25565"
+        }"
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
@@ -27,3 +35,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm i
     - run: npm test
+    
