@@ -24,7 +24,7 @@ jobs:
     steps:
     - uses: "finnp/create-file-action@master"
       env:
-        FILE_NAME: "dir/config.json"
+        FILE_NAME: "@master/config.json"
         FILE_DATA: "{"ip" : "hypixel.net",
         "port" :"25565"
         }"
