@@ -1,4 +1,4 @@
-### MC player count
+### MC player count terminal
 
 ## To use:
 
